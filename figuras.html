@@ -26,6 +26,49 @@
         </button>
       </form>
     </section>
+
+    <section>
+      <h2>Calcula el area y perimetro de un Triangulo</h2>
+      <form>
+        <label for="inputLadoT1"
+          >Escribe cuanto mide cada lado de tu Triangulo</label
+        >
+        <input id="inputLadoT1" type="number" />
+        <input id="inputLadoT2" type="number" />
+        <label for="inputTriangulo"
+          >Escribe cuanto mide la base de tu Triangulo</label
+        >
+        <input id="inputBaseT" type="number" />
+        <label for="inputAlturaT"
+          >Escribe cuanto mide la altura de tu Triangulo</label
+        >
+        <input id="inputAlturaT" type="number" />
+        <button type="button" onclick="calcularPerimetroTriangulo()">
+          Calcular el perimetro
+        </button>
+        <button type="button" onclick="calcularAreaTriangulo()">
+          Calcular el area
+        </button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Calcula la altura de un triangulo Isoceles</h2>
+      <form>
+        <label for="inputLadoT1"
+          >Escribe cuanto mide cada lado de tu Triangulo</label
+        >
+        <input id="inputTI1" type="number" />
+        <input id="inputTI2" type="number" />
+        <label for="inputTriangulo"
+          >Escribe cuanto mide la base de tu Triangulo</label
+        >
+        <input id="inputTIB" type="number" />
+        <button type="button" onclick="calcularHTriangulo()">
+          Calcular la altura
+        </button>
+      </form>
+    </section>
     <script src="./figuras.js"></script>
   </body>
 </html>
